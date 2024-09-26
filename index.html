@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="theme-color" content="#051e3e">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 style="color:#fff; text-transform:uppercase;" class="text-center mt-5">Currency converter</h2>
+    </div>
+
+    <div class="container">
+
+           
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                    <div class="form-group">
+                            <label class="mt-4" style="color: #fff; text-transform:uppercase;font-weight:600;letter-spacing:2px" >
+                                Select Currency</label>
+                                                <select class="form-control bg-light" id="option">
+                                                  <option>INR</option>
+                                                  <option>USD</option>
+                                                  <option>EURO</option>
+                                                  <option>KUWAITI</option>
+                                                </select>
+                                              </div>
+                <input id="input" class="form-control" type="number" placeholder="0">
+
+                <h3 class="mt-4" id="money"> INR</h3>
+                <div class="card mt-4 bg-success" style="height: 100px">
+                    <p class="mt-3 ml-3" id="curr_one">USD : </p>
+                    <span class="ml-3" id="usd">0</span>
+                </div>
+
+                <div class="card mt-2 bg-primary" style="height: 100px">
+                    <p class="mt-3 ml-3" id="curr_two">EURO :</p>
+                    <span class="ml-3" id="euro">0</span>
+                </div>
+
+                <div class="card mt-2 bg-danger" style="height: 100px">
+                    <p class="mt-3 ml-3" id="curr_three">KUWAITI :</p>
+                    <span class="ml-3" id="quait">0</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Made with <img src="love.png">Avinash Kumar</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

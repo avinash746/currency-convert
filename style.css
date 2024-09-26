@@ -1,0 +1,32 @@
+body{
+    background: #051e3e ; padding: 0px;
+    margin: 0px;}
+    
+    p{
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    span{
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    h3{
+        color: #fff;
+    } @media only screen and (max-width: 600px) {
+       h2{
+           font-size: 26px;
+       }
+      }
+
+img{
+    height: 25px;
+}
+
+footer p{
+text-align: center;
+margin-top: 50px;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
